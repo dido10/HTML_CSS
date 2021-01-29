@@ -1,0 +1,87 @@
+<html>
+  <head>  </head>	
+	<body>this      space           will not              shown in screen	</body>
+</html>
+---
+<html>
+  <head>
+  	<title>Page Title will shown on tap</title>
+  </head>	
+	<body>
+		<p>This is Paragraph and                     also do not holds the spaces too </p>
+    <p> After this word,<br>  paragraph will continue from one line below</p>
+		<p> After this word,<hr>  paragraph will continue from one line below and will put  a line between lines  </p>
+		</body>
+</html>
+----
+<html>
+  <head>
+  	<title>Page Title</title>
+  </head>	
+	<body>
+		<p>this part on the paragraph will be  <strong>STRONG</strong> characters</p>
+		<p>this part on the paragraph will be <em>ITALIC</em> type </p>
+		<p>this part on the paragraph will be <mark>MARKED</mark>        with yellow           and also no space </p>
+	</body>
+</html>
+---
+<html>
+  <head>
+  	<title>Sayfa başlığı</title>
+  </head>	
+	<body>
+		<h1>The Biggest Heading</h1>
+		<h2>The Second İmportant Heading</h2>
+		<h3>The Third İmportant Heading</h3>
+		<h4>The Forth İmportant Heading</h4>
+		<h5>The Fifth İmportant Heading</h5>
+		<h6>The Sixth İmportant Heading</h6>		
+		</body>
+</html>
+----
+<html>
+  <head>
+  	<title>Sayfa başlığı</title>
+  </head>	
+	<body>
+		<h1>Important Heading</h1>
+			<u1>
+				<li>This lines</li>
+				<li>will be order by </li>
+				<li>dots</li>
+			</u1>
+		</body>
+</html>
+-----
+<html>
+  <head>
+  	<title>Page Title</title>
+  </head>	
+	<body>
+	<h1>Important Heading</h1>
+			<ol>
+				<li> This lines</li>
+				<li>will be order by</li>
+				<li>numbers</li>
+			</ol>
+	</body>
+</html>
+----
+<html>
+  <head>
+  	<title>Page Title</title>
+  </head>	
+	<body>	
+		<p> On this Paragraph --> this is a way to give link <a href="http://www.google.com">Google</a> to clik </p>
+		<pre>the characters 
+                      
+                     will 
+                     
+                     
+              appear on site like
+           which it was 
+                              written on 
+    html
+    </pre>
+	</body>
+</html>
