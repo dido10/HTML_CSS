@@ -1,0 +1,42 @@
+<html>
+    <head>      
+        <title>
+          Add Pic. To Page With URL
+        </title>
+        <style>
+            td,th,table{
+                border: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr><!--row-->
+                    <th><!--column and header-->
+                        Name 
+                    </th>
+                    <th><!--column and header-->
+                        Surname
+                    </th>
+                    <td><!--differnt way for column and header-->
+                        <b>Record Date</b>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--row-->
+                    <td><!--column-->
+                        Didem 
+                    </td>
+                    <td><!--column-->
+                        XXXX
+                    </td>
+                    <td><!--column-->
+                        15/11/220
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
