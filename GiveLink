@@ -1,0 +1,14 @@
+<html lang="en" xmlns="http://www.google.com">//tarayıcılar otomatik algılıyor
+    <head>      
+        <title>
+            Link Labeling
+        </title>
+    </head>
+    <body>
+     <p>By this link  <a href="http://www.google.com.tr">GOOGLEE</a> will be opened</p><br/>
+     <p>By this link  <a href="http://www.google.com.tr" target="_blank">GOOGLEE</a> will be opened in a new tab</p><br/>
+     <p>By this link  <a href="http://www.google.com.tr" target="_parent">GOOGLEE</a> will be opened </p><br/>
+     <p>By this link  <a href="http://www.google.com.tr" target="_self">GOOGLEE</a> will be opened </p><br/>
+     <p>By this link  <a href="http://www.google.com.tr" target="_top">GOOGLEE</a> will be opened</p><br/>
+    </body>
+</html>
