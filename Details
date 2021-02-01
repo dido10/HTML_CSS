@@ -1,0 +1,25 @@
+<html lang="en" xmlns="http://www.google.com">//dns server know that
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author"/>//wheb site name
+        <meta name="robots" content="index,follow"/>
+        ><meta name="keywords" content="ornek,adı,site" />
+        <title>
+            HTML structure
+        </title>
+    </head>
+    <body>  
+        Hello I am Html
+        <b>Bolt type </b><br/>
+        <strong>character will shown strong </strong><br/>
+        <i>Ithal type</i><br/>
+        <em>character will shown threshold </em><br/>
+        <small>character will be shown smaller</small><br/>
+        <ins>underline</ins><br/>
+        <del>lined characters</del><br/>
+        <p>This part will be shown <sub>below</sub> on paragraph</p><br/>
+        <p>This part will be shown <sup>upper</sup> on paragraph</p><br/>
+        <mark>this part of paragraph  </mark> will be colored
+        <!-- this part will not shown in paragraph. this is comment part-->
+    </body>
+</html>
