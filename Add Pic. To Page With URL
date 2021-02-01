@@ -1,0 +1,13 @@
+<html>
+    <head>      
+        <title>
+          Add Pic. To Page With URL
+        </title>
+    </head>
+    <body>
+        <p>The way to show <img src="https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/> photo to page with url link</p>
+        <p>Resize photo  <img src="https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="128"/> photo on page with url link</p>
+        <p>Resize photo  <img src="https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="128" height="128"/> photo on page with url link</p>
+        <p>Resize photo  <img src="https://www.google.com.tr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" width="128"/> photo on page with url link</p>    
+    </body>
+</html>
