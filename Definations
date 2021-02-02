@@ -31,6 +31,7 @@
   </head>	
 	<body>
 		<h1>The Biggest Heading</h1>
+		<h1 style="border:1px solid rgba(133, 13, 13, 0.8);width:50%;">The Biggest Heading with the border</h1>
 		<h2>The Second İmportant Heading</h2>
 		<h3>The Third İmportant Heading</h3>
 		<h4>The Forth İmportant Heading</h4>
