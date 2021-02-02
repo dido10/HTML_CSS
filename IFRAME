@@ -1,0 +1,12 @@
+<html>
+    <head>      
+        <title>
+          HTML Iframe
+        </title>
+    </head>
+    <body>
+        <iframe src="http://https://www.udemy.com" width="400"></iframe>
+        <iframe src="file:///C:/Users/dz/Desktop/xxxx.png" width="400"></iframe>
+        <iframe src="file:///C:/Users/dz/Desktop/HTML/order.htm" width="400"></iframe>
+    </body>
+</html>
