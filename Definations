@@ -64,6 +64,12 @@
 				<li>will be order by</li>
 				<li>numbers</li>
 			</ol>
+			<ol type="a">
+				<li> This lines</li>
+				<li>will be order by</li>
+				<li>alphabet</li>
+			</ol>
+			
 	</body>
 </html>
 ----
