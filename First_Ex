@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birbirinden Güzel Filmler</title>
+</head>
+
+<body>
+    <h1>Film Listesi</h1>
+    <img src="https://productimages.hepsiburada.net/s/20/431/9893020532786.jpg" width="33%" height="33%" title="komedi filmleri" alt="komedi filmlerine ait resim bulunamadı.">
+    <ul type="circle">
+        <li><strong>Komedi</strong> <em>Filmleri</em>
+
+            <ol type="A">
+                <li>Zombilerin Şafağı</li>
+                <li>Kung Fu Sokağı</li>
+                <li>Şansa Bak</li>
+            </ol>
+        </li>
+    </ul>  
+    <p>
+        <img src="data:image/jpeg;base64,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" width="33%" height="33%" >
+    </p>
+    <ul type="circle">
+        <li><strong>Gerilim</strong> <em>Filmleri</em>
+
+            <ol type="I">
+                <li>Prestij</li>
+                <li><del>Kuzuların Sessizliği</del></li>
+                <li><ins>Dabbe</ins></li>
+            </ol>
+        </li>
+    </ul>
+ 
+
+</body>
+
+</html>
