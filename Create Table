@@ -19,6 +19,9 @@
                     <th><!--column and header-->
                         Surname
                     </th>
+                     <th colspan="2"><!--column merge-->
+                        Mavi-Yeşil
+                    </th>
                     <td><!--differnt way for column and header-->
                         <b>Record Date</b>
                     </td>
@@ -26,7 +29,7 @@
             </thead>
             <tbody>
                 <tr><!--row-->
-                    <td><!--column-->
+                    <td><!--column-->//<td style="height: 30px;" bgcolor="red">
                         Didem 
                     </td>
                     <td><!--column-->
