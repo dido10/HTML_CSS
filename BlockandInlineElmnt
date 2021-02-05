@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Elements</title>
+</head>
+<body>
+    this is a block element example.
+    this elements cover entire screen.
+    <div style="border: 1px solid red;"> 1 </div>
+    <h1 style="border: 1px solid red;">2</h1>
+    <form style="border: 1px solid red;">3</form>
+    <ul>
+        <li style="border: 1px solid red;">4</li>
+    </ul>
+    <ol>
+        <li style="border: 1px solid red;">5</li>
+    </ol>
+    <p style="border: 1px solid red;">6</p>
+    <table style="border: 1px solid red;">
+        <thead>
+            <tr>
+                <th>7</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+    Inline elements
+    this inline elements could be usable in block elements
+    but block elements can not be usable in inline elements
+    <b>Lorem ipsum dolor sit
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis minima eum, numquam itaque dicta, nobis debitis consequuntur velit, laborum quae ipsum deleniti quibusdam? Necessitatibus reiciendis temporibus cumque enim ad at? 
+    </b>
+    <a href="a">google</a>
+    <strong>bold</strong>
+    <img src="ttt.png" alt="not real photo">
+    <input type="text" name="ccc" id="cc">
+    <em>text</em>
+    <span style="color: red;">tecxt</span>
+</body>
+</html>
