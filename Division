@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division</title>
+    <STYLE>
+        body {
+            width: 75%;
+        }
+        div {
+            width: 75%;
+            border: 1px solid black;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+        }
+    </STYLE>
+</head>
+<body>
+    <div><!--div helps you to divide on page -->
+        <h2>           A Coding Example        </h2>
+        <img src="https://zizuva.com//images/prod/3175.jpg" alt="">
+        <p>Photo Own: XYZ Firm</p>
+    </div>
+    <div>
+        <h2>      A Coding Example      </h2>
+        <img src="https://lh3.googleusercontent.com/proxy/u_IAObh8nRZU37brN3DWJoGbpipRfcQc4WLG0Svn2PYkz77KooXFb07OG963OHKgRSVgrJX4Tc4hcX7BF3DJudcjXexRSxNfJipzBOESlpA4y0vi9JEi" alt="">
+        <p>Photo Own: XYZ Firm</p>
+    </div>
+    <div>
+        <h2>  A Coding Example      </h2>
+        <img src="https://iatkv.tmgrup.com.tr/0e68b5/600/314/0/0/1286/673?u=https%3A%2F%2Fitkv.tmgrup.com.tr%2F2020%2F10%2F04%2Facun-ilicali-ucretsiz-bilgisayar-basvuru-formu-acun-ilicali-bedava-laptop-nasil-alinir-1601803319435.jpg" alt="">
+        <p>Photo Own: XYZ Firm</p>
+    </div>
+</body>
+</html>
