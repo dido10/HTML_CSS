@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <STYLE>
+        #password{
+            width: 200px;
+            color: red;
+            border:2px solid blue ;
+        }
+     </STYLE>
+</head>
+
+<body>
+       <form action="POST"><!--action will be active afret submit button--><!--Get could useable-->
+       <!--get or post a method to activate form--><!--get, hold the inputs on url-->
+       <!--post will send  -->
+        <!--fronthand side-->
+    
+        <input type="text" name="username" placeholder="İsminizi Yazınız">
+        <br>
+        <input type="password" name="password" id="password" placeholder="şifrenizi giriniz">
+        <input type="submit" value="Gönder"><br>
+        <input type="radio" name="gender" value="Man">Erkek<!--"value" are sent the data to db or where it will sent-->
+        <input type="radio" name="gender" value="Woman">Kadın
+        <!--form doesnt work on link. it still work as GET shows password on link-->
+    <br>
+    <select name="city" id="city">
+        <option value="İZMİR">İZMİR</option>
+        <option value="ADANA">ADANA</option>
+    </select>
+      
+    </form>
+   
+</body>
+
+</html>
