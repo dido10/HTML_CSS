@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>A Page Structure</title>
+</head>
+<body>
+    <header style="border: 1px solid red;">
+        <img src="https://cdn.worldvectorlogo.com/logos/udemy-1.svg" width="15%" alt="">
+        <nav>
+            <ul>
+                <li>  <a href="#">Ana Sayfa</a>  </li>
+                <li>  <a href="#">Hakkımızda</a>  </li>
+                <li>  <a href="#">İletişim</a>  </li>
+            </ul>
+        </nav>
+    </header>
+    <aside>cc</aside>
+    <main>
+        <article style="border: 1px solid black;">
+            <h1>products</h1>
+            <section>
+                <h2>product x</h2>
+            </section>
+            <section>
+                <h2>product Y</h2>
+            </section>
+            <section>
+                <h2>product Z</h2>
+            </section>
+        </article>
+        <aside>Best Customer</aside>
+        <aside>Who is Us?</aside>
+    </main>
+    <footer style="border: 1px solid blue;">
+        privacy legacy <a href="#"> Click here</a>
+    </footer>
+    <nav>
+        <ul>
+            <li>  <a href="#">Fakebook </a>  </li>
+            <li>  <a href="#">İnsdagram</a>  </li>
+            <li>  <a href="#">Twipter</a>  </li>
+        </ul>
+    </nav>
+</body>
+</html>
