@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Sounds</title>
+</head>
+<body>
+    <audio controls>
+        <source src="voice is has to be uploaded " type="audio/wav">
+    </audio>
+    <audio controls autoplay loop>
+        <source src="voice is has to be uploaded ">
+    </audio>
+    <video controls autoplay loop>
+        <source src="video is has to be uploaded " type="video/mp4">
+    </video>
+</body>
+</html>
