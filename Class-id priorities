@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="../Csse giriş/style.css">
+<style>
+    .Sporlar{
+        color: black;
+        font-size: 30px;
+
+    }
+    .Sporlar p{
+        color: white;
+        font-size: 30px;
+
+    }
+    
+    .Sporlar p em{
+        font-size: 100px;
+        color: rgb(209, 224, 209);
+    }
+    p{ 
+       background-color: brown;
+        color: green;
+        font-size: 30px;
+    }
+    #baslık{
+        color: red; 
+        font-size: 40px;
+    }
+    .elemanlar{
+        color: blue; 
+        font-size: 20px; 
+    }
+    .futbol{
+        color: blueviolet  !important;
+    }
+    .basketbol{
+        color:aquamarine  !important;
+    }
+
+    .voleybol{
+        color:rebeccapurple  !important;
+    }
+   
+</style>
+</head>
+<body>
+    <!-- class,id can not starts with numbers-->
+    <p>deneme </p>
+    <p id="baslık">deneme </p>
+
+    <ol type="A">
+        <li class="elemanlar">Zombilerin Şafağı</li>
+        <li class="elemanlar">Kung Fu Sokağı</li>
+        <li class="elemanlar">Şansa Bak</li>
+    </ol>
+    <!-- 
+        div.XXXX + tap will be --    <div class="xxx"></div>
+    -->
+
+<div class="Sporlar"><!--Sportlar Class's p label-->
+<h1><em> Avrupa </em>Takımlar</h1>
+<p class="Futbol" >Fenerbahçe</p>
+<p class="Futbol">Galatasaray</p>
+<p class="Basketbol">Efes Pilsen</p>
+<p class="Basketbol">Tofaş</p>
+<p class="Voleybol">Eczacıbaşı</p>
+<p class="Voleybol">vakıfbank</p>
+
+</div>
+</body>
+</html> 
