@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: red;
+        }
+        p::first-line{
+            background-color: aquamarine;
+        }p::after{ 
+            content: "!!!!";
+        }
+        a:link{
+            color:turquoise;
+        }
+        a:hover{
+            color:yellow;
+        }
+        a:active{
+            color:pink;
+        }
+        a:visited{
+            color:black
+        }
+        img[title="araba"] {
+            border: solid black;
+        }
+        img[width="50%"]{
+            border: 5px solid red;
+        }
+        p[title="this is a paragraph"]{
+            color:red;
+        }
+        p[title^="this"]{   
+            text-align: right;
+        }
+    p[title$="end"]{
+        color:greenyellow;
+        }
+    a[href="www.yuutube.com"]:visited{
+        color: orangered;
+    }
+    a[target="_blank"]{
+        color: brown;
+    }
+    a[href="www.udemy.com"][target="3d"]{
+        color: goldenrod;
+    }
+
+    </style>
+</head>
+<body>
+    <p>DİDEM EDD</p>
+    <!--pseudo element w3 -->
+
+    <a href="www.google.com">Google a git</a>
+    <br>
+    <img src="https://cdn.civilim.com/ProductImages/367924/big/11.jpeg" width="40%" alt="" title="araba">
+    <br>
+    <img src="https://cdn.civilim.com/ProductImages/367924/big/11.jpeg" width="60%" alt="">
+    <br>
+    <img src="https://cdn.civilim.com/ProductImages/367924/big/11.jpeg" width="50%" alt="">
+    <br>
+    <p title="this is a paragraph end">paragraf 1</p>
+    <p title="this is not a paragraph">paragraf 2</p>
+    <p title="paragraph">paragraf 3</p>
+    <a href="www.udemy.com">UDEMY</a>
+    <br>
+    <a href="www.udemy.com" target="3d">UDEMY</a>
+    <br>
+    <a href="www.yuutube.com" target="_blank">yuutube</a>
+    <br>
+</body>
+</html>
