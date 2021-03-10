@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Font Type Family</title>
+    <style>
+        html{
+            font-size: 30px;
+        }
+        body{
+            font-size: 50px;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: normal;
+            font-family: 'Courier New',Courier,monospace;
+        }
+        .serif{
+            font-family: serif;
+        }
+        sans-serif{
+            font-family: sans-serif;
+        }
+        .fantasy{
+            font-family: fantasy;
+        }
+        .cursive{
+            font-family: cursive;
+        }
+     </style>
+</head>
+<body>
+    <!--fonts.google.com-->
+    This is an Example2
+
+    <p class="serif">Lorem ipsum dolor sit amet consect
+<!--em ile p nin içinde olduğu class yani suan body boyutu ne ise onun boyutunu aldırır.-->
+<!--rem ile p nin rootu yani en kök cklassı ne ise, burda html, onun boyutunu aldırır. html boyutu 16dır-->
+    </p>
+     
+    <p class="sans-serif">Lorem ipsum dolor sit amet consect</p>
+    <p class="cursive">Lorem ipsum dolor sit amet consect</p>
+    <p class="fantasy">Lorem ipsum dolor sit amet consect</p>
+    <p class="monospace">Lorem ipsum dolor sit amet consect</p>
+</body>
+</html>
