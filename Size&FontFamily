@@ -88,5 +88,10 @@
 
 
     </div>
+    <p style="font-style: inherit;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem esse cum fugiat velit.</p>--inherit; style will be the parent's style
+    <p style="font-style: initial;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem esse cum fugiat velit.</p>
+    <p style="font-style: unset;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem esse cum fugiat velit.</p>
+
+
 </body>
 </html>
