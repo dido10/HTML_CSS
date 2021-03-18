@@ -1,3 +1,78 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+ }
+div{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: orange;
+               
+}
+#XX{
+    background: url("images/XXacademy.jpg") no-repeat ;
+    background-size: 100% 300px;
+    
+}
+
+.acadmy{
+    display: block;/*block element gibi bir görünüm.*/
+    background-color: lightgreen;
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+
+.images{
+    width: 100%;
+    float: left;
+    
+}
+.kurs{
+    width: 33.3%;
+    float: left;
+    padding-top:10px;
+}
+.kurs:nth-child(1){
+    background: url("images/derscalisan.jpg") no-repeat;
+    background-size: 100% 300px;
+}
+.kurs:nth-child(2){
+    background: url("images/mataraba.jpg") no-repeat;
+    background-size: 100% 300px;
+}   
+.kurs:nth-child(3){
+    background: url("images/XXacademy.jpg") no-repeat;
+    background-size: 100% 300px;
+} 
+#footbar{
+    background-color: tomato;
+    width: 100%;
+    height: 300px;
+    clear:both;
+}
+#footbar img{
+    margin-top: 10px;
+    border: 10px black dashed;
+}
+#footbar p{
+    white-space: pre-line;
+}
+@media screen and (max-width:992px){
+    .kurs{
+        width:100%
+    }
+    #footbar{
+        margin-top: 900px;
+        height: 350px;
+    }
+    #footbar img{
+        margin-top: 20px;
+    }
+}
+------------------------
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,61 +80,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XX Academy örnek</title>
-    <Style>
-        body{
-            font-family: 'Courier New', Courier, monospace;
-         }
-        div{
-            width: 100%;
-            height: 300px;
-            text-align: center;
-            color: orange;            
-        }
-        #XX{
-            background: url("images/XXacademy.jpg") no-repeat ;
-            background-size: 100% 300px;
-            
-        }
-        span{
-            background-color: lightgreen;
-            font-size: 20px;
-            }
-        
-        
-        .images{
-            width: 100%;
-            float: left;
-            
-        }
-        .kurs{
-            width: 33.3%;
-            float: left;
-            padding-top:10px;
-        }
-        .kurs:nth-child(1){
-            background: url("images/derscalisan.jpg") no-repeat;
-            background-size: 100% 300px;
-        }
-        .kurs:nth-child(2){
-            background: url("images/mataraba.jpg") no-repeat;
-            background-size: 100% 300px;
-        }   
-        .kurs:nth-child(3){
-            background: url("images/XXacademy.jpg") no-repeat;
-            background-size: 100% 300px;
-        } 
-        #footbar{
-            background-color: tomato;
-            width: 100%;
-            height: 300px;
-            clear:both;
-        }
-        .tt{
-            margin-top: 10px;
-            border: 10px black dashed;
-        }
-        
-    </Style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="XX">
@@ -83,9 +104,10 @@
     
     <div id="footbar">
         <img src="images/XXacademy.jpg" alt="" class="tt">
-        <p>XX AKADEMYYY </br>
+        <p>XX AKADEMYYY 
             insan yetişitirir.
         </p>
     </div>
 </body>
 </html>
+
