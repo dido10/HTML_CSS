@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            cursor: crosshair;/*mouse tipi değiştirme*/
+        }
+        .as{
+            cursor: help;
+            /*cursor property:auto, help,n-resize,wait,text,nw-resize,pointer,verticall-text vs.*/
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="as">Lorem, ipsum dolor.</p>
+</body>
+</html>
