@@ -12,3 +12,39 @@
      <p>By this link  <a href="http://www.google.com.tr" target="_top">GOOGLEE</a> will be opened</p><br/>
     </body>
 </html>
+------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+            transition: color  0.5s linear;/*bu yavaşça rengin değişmesini salıyor.*/
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;;
+        }
+        a:hover{
+            color: blue;;
+        }
+    </style>
+</head>
+<body>
+    
+     <p>By this link  <a href="http://www.google.com.tr" target="_blank">GOOGLEE</a> will be opened</p><br/>
+     <!--target blank ile link yeni sekmede açılır-->
+     <p>By this link  <a href="http://www.google.com.tr">GOOGLEE</a> will be opened in a new tab</p><br/>
+     <p>By this link  <a href="http://www.google.com.tr">GOOGLEE</a> will be opened </p><br/>
+     <p>By this link  <a href="http://www.google.com.tr">GOOGLEE</a> will be opened </p><br/>
+     <p>By this link  <a href="http://www.google.com.tr">GOOGLEE</a> will be opened</p><br/>
+</body>
+</html>
