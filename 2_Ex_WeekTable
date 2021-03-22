@@ -61,3 +61,81 @@
 </body>
 
 </html>
+-------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+    border-spacing: seperate;
+      /*  border-collapse: collapse;*/
+    border-spacing: 5px 5px;
+    empty-cells: hide;
+    caption-side: bottom;
+    border: 2px solid black;
+    table-layout: fixed;
+    }
+    table tr th{
+        border: 7px solid rebeccapurple;
+    }
+    table tr td{
+        border: 1px solid rebeccapurple;
+    }
+    
+</style>
+<body>
+    <table>
+        <caption>Haftalık Tablo</caption>
+        <thead>
+            <tr>              
+                <th>Program</th>
+                <th>Pazartesi</th>
+                <th>Salı</th>
+                <th>Çarşamba</th>
+                <th>Perşembe</th>
+                <th>Cuma</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>              
+                <td>08:00</td>
+                <td>HAZIRLIK</td>
+           </tr>
+            <tr> <td>08:00-09:00</td>
+                <td>YOLCULUK</td>
+                
+            </tr>
+            <tr> <td>09:00-15:00</td>
+                <td>OKUL</td>
+                <td></td>
+               
+            </tr>
+            <tr> <td>15:00-18:00</td>
+                <td>EV</td>
+                <td>DERSHANE</td>
+                <td>BULUŞMA</td>
+                <td>DERSHANE</td>
+                <td>GEZME</td>
+                
+            </tr>
+            <tr> <td>18:00-21:00</td>
+            </tr>
+            <tr> <td>21:00-23:00</td>
+                
+                <td>EV</td>
+                
+                <td>TEST ÇÖZME</td>
+            </tr>
+            <tr> <td>23:00-00:00</td>
+                <td>UYUMA MODU</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
