@@ -112,7 +112,79 @@
     <div class="yellow absolute" style="top:200px"></div>
     <div class="red absolute"></div>
     <!--last 3 div will be shown on top of each other-->
+</body>
+</html>
 
-
+----------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: px;
+            /*float: right;/*fotografı istenilen konuma yerleştirme*/
+        }
+        p{
+            border: solid 1px black;
+        }
+        div{
+            border: solid red 1px;
+            height: 200px;
+            overflow: auto;/*scroll bar görünür div içinde tutar */
+        }
+        .clear{
+            clear: both;/*kaydırma işlemlerini temizle*/
+        }
+        .float-right{
+            float: right;
+        }
+        .float-left{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <img class="float-right" src="images/mataraba.jpg" alt="">
+        Lorem ipsum dolor sit 
+        amet consectetur adipisicing elit. Error dignissimos
+         ipsam nulla dolorem quam debitis?
+        </p>
+        <div class="clear">
+            <img class="float-left" src="images/derscalisan.jpg" alt="">
+        <p>laptop kodlama</p>
+        </div>
+        <div>
+            <img class="float-left" src="images/derscalisan.jpg" alt="">
+        <p>Lorem ipsum, dolor sit 
+            amet consectetur adipisicing 
+            elit. Expedita, quasi <br>
+            cupiditate eius dignissimos alias
+             deleniti eaque?
+             Lorem ipsum, dolor sit 
+             amet consectetur adipisicing 
+             elit. Expedita, quasi <br>
+             cupiditate eius dignissimos alias
+              deleniti eaque?<br>
+              Lorem ipsum, dolor sit 
+              amet consectetur adipisicing 
+              elit. Expedita, quasi <br>
+              cupiditate eius dignissimos alias
+               deleniti eaque?
+               Lorem ipsum, dolor sit 
+               amet consectetur adipisicing 
+               elit. Expedita, quasi 
+               cupiditate eius dignissimos alias
+                deleniti eaque?<br>
+                Lorem ipsum, dolor sit <br>
+                amet consectetur adipisicing 
+                elit. Expedita, quasi 
+                cupiditate eius dignissimos alias
+                 deleniti eaque?</p>
+        </div>
 </body>
 </html>
