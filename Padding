@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 33%;
+            height: 400px;
+            float: left;
+            border: 1px solid coral;
+            color: white;
+            background: green;
+           /*  padding-left: 100px;
+           border-right: 50px solid blue;
+            box-sizing: border-box;
+            box-sizing: content-box;*/  
+            /*margin-right:30px;
+            margin-left: 20px;
+            margin-top: 50px;
+            padding: 0;*/
+            margin: 0 10px 20px 50px;/*üst , sağ,aşağı,sol*/
+          
+          
+        }
+        .tam{
+            width: 100%;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>Didem</div>
+    <div>Gururula</div>
+    <div>Sunar</div>
+    <div class="tam">yetenek    </div>
+
+</body>
+
+</html>
+---------------------
