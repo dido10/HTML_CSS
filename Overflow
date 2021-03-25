@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <!--taşma-->
+    <style>
+        img {
+            
+            margin-right: 20px;
+            width: 25%;
+            float: left;
+            height: 300px;
+
+        }
+
+        p {
+            border: 1px red solid;
+            width: 75%;
+            float: left;
+            text-indent: 20px;
+        }
+
+        div {
+            overflow:scroll;
+           overflow-x: hidden;
+            height: 250px;
+            
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div>
+        <img src="images/derscalisan.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio laboriosam consequatur totam reiciendis fuga repellendus esse fugit quis aliquam pariatur?
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet.
+        </p>
+    </div>
+</body>
+
+</html>
