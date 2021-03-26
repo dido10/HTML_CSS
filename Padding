@@ -90,3 +90,38 @@
     
 </body>
 </html>
+----------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 500px;
+            width: 500px;
+            background: orangered;
+            color: black;
+            line-height: 2;/* satır arası boşluk*/
+            padding: 50px;
+            border:solid yellow 10px;
+            box-sizing: border-box;/*yükseklik ve genişlik içinde border */
+        }
+        p{}
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, nihil!
+            Laboriosam labore sint error quas officia tempore non saepe quidem.
+            Delectus veritatis voluptate veniam minus quidem reprehenderit ab dolorum expedita.
+            Expedita placeat sed tenetur sapiente animi, asperiores magni at? Accusamus?
+            Assumenda ea iste quisquam provident iure qui, asperiores dolorem! Et!
+        </p>
+    </div>
+    
+</body>
+</html>
