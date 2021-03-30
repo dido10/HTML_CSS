@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--<link href="StyleSheet.css" rel="stylesheet" type="text/css" /><!--css dosya bağlantısı-->
+    <title>DD</title>
+    <!--<link href="indir.ico" rel="shortcut icon" />-->
+    <script src="https://kit.fontawesome.com/2dffc195b4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"></script>
+    <style>
+        div{
+            width:100px;
+            height:100PX;
+            background-color:greenyellow;
+            position:relative;
+            /*seçilen divin hareket etmesini sağlar*/
+
+            animation-name:ornek;
+            animation-duration:3s;
+            /*animation-delay:2s;*/
+            animation-iteration-count:infinite;
+            animation-direction:reverse;
+            /* animation:ornek 8s linear 2s infinite alternate;*/
+        }
+
+        @keyframes ornek{
+           /* from{background-color:greenyellow }
+            to{background-color:lightpink }*/
+            0% {
+                background-color: greenyellow;
+                left: 0;
+                top: 0;
+                
+            }
+
+            25% {
+                background-color: blue;
+                left:400px;
+                top:0;
+            }
+            50% {
+                background-color: forestgreen;
+                left: 400px;
+                top: 200px;
+            }
+            100% {
+                background-color: lightpink;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
