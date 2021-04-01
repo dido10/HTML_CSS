@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!--<link href="StyleSheet.css" rel="stylesheet" type="text/css" />css dosya bağlantısı-->
+    <title>DD</title>
+    <!--<link href="indir.ico" rel="shortcut icon" />-->
+    <script src="https://kit.fontawesome.com/2dffc195b4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+            integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+            crossorigin="anonymous"></script>
+    <!-- this way orrr<script>
+        document.write("hello site");
+        </script>-->
+    <!--this wayorrrr<script src="JavaScript.js"></script>-->
+    <!--head içinde yazılan js kodları ekran açılışlarını yavaşlatır.-->
+</head>
+<body>
+    <h1>
+        JavaScript
+    </h1>
+    <div id="div1">java java jaava must be funny</div>
+
+    <script>
+        document.getElementById("div1").innerHTML = "<b>hoş bulduk</b>";
+        document.getElementById("div1").innerHTML = "<b><i>hoş bulduk</i></b>";
+    </script>
+    <!--<script>
+        document.write("java script öğreniyorum");
+    </script>--><!--boşalana yerleşir-->
+    <!--<script>
+        /*console.log(10+15);*/
+        window.alert("hoşgeldiniz");
+
+    </script>
+    <script>
+          window.print("xxxxx");/*printle yazdrma*/
+   </script>-->
+    <!--<script>
+        document.write("hello site");
+    </script>-->
+    <!--<script src="JavaScript.js"></script>  this way-->
+</body>
+</html>
