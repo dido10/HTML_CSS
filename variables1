@@ -65,7 +65,7 @@
         var y = meyve.push("kayısı");
         var y = meyve.pop();/*son  elamanı alır y ye eşitler*//*shift ilk elemanı çıkarır,slice (x,y)x dahil y dahil değil aradakileri getirir*/
         /*splice (x,y,"t") x. sıraya git y=0 sa silme,y> y. sıradakini sil. işlem sonucu direk ekrana yazdır değişkene atama*/
-
+        /*concat iki arrayi birleştirir*/
         document.write(y);
         document.write(meyve);
     </script>
