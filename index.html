@@ -1,44 +1,37 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="ComposersList">
+<html lang="en" ng-app="SingerApp">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3 Famous Composers</title>
+    <title>Best Singers</title>
     <!--this is angular js to enhance our javascript-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-   <!--Java scripts file-->
+    <!--Java scripts file-->
     <script src="app.js"></script>
-   <!--this is bootstrapt to enhance our javascript-->
+    <!--this is bootstrapt to enhance our javascript-->
     <link rel="stylesheet" href="style.css">
-   <!--our css file-->
+    <!--our css file-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
 </head>
-<body ng-controller="ComposerController">
-  <!-- {{testing}}--> 
-<h1>Examp 3</h1>
-<h1>with Angular</h1>
-<!--clickable picture of composers-->
 
-<table class="top-table">
-    <tr>
-        <td><img ng-click="select='Bach'" src="images/bach.jpg" alt="" >Bach</td>
-        <td><img ng-click="select ='Beethoven'" src="images/beethoven.jpg" alt="">Beethoven</td>
-        <td><img ng-click="select='Mozart'" src="images/mozart.jpg" alt="">Mozart</td>
-    </tr>
-</table>
-
-<table class="bottom-table">
-    <tr><td colspan="3">
-        <h2>Top 5 Pieces of Music</h2>
-    </td></tr>
-    <tr ng-repeat="p in pieces" ng-if="p.composer==select">
-        <td><img src="{{p.pic}}" alt=""></td>
-        <td> {{p.composer}}</td>
-        <td>{{p.title}}</td>
-    </tr>
-</table>
+<body ng-controller="SingerController">
+    <div>
+        <strong>See The</strong>
+        <button ng-click="MaleorFemale ='M'">Male</button>
+        <button ng-click="MaleorFemale ='F'">Female</button>
+        <strong>Singers</strong>
+    </div>
+    <table class="singer-table">
+        <tr ng-repeat="singer in singers" ng-if="singer.gender==MaleorFemale">
+            <td><img class="singer_pic" src="{{singer.pic}}" alt=""></td>
+            <td class="name">{{singer.name}}</td>
+            <td class="quality-icon"><img class="quality-img" src="{{singer.quality}}" alt=""></td>
+        </tr>
+    </table>
 
 </body>
+
 </html>
